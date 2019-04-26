@@ -1,7 +1,7 @@
 ## Mini Management System
 
 - Install
-    npm install
+    + npm install
 - Envirnnment
     + Node.js
     + Mongodb -- mongoose
