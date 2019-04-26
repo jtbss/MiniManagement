@@ -2,7 +2,7 @@
 
 - Install
     + npm install
-- Envirnnment
+- Environment
     + Node.js
     + Mongodb -- mongoose
     + Template engine -- art-template
