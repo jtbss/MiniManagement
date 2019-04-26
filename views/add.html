@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Add new memeber</h3>
+        <form action="/add" method="post">
+            <div class="form-group">
+                <label for="memberName">Name</label>
+                <input type="text" name="name" class="form-control" id="memberName" aria-describedby="emailHelp" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="memberGender">Gender</label>
+                <select class="form-control" name="gender" id="memberGender">
+                    <option>male</option>
+                    <option>female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="memberAge">Age</label>
+                <input type="number" name="age" class="form-control" id="memberAge" placeholder="Age">
+            </div>
+            <div class="form-group">
+                    <label for="memberHobby">Hobby</label>
+                    <input type="text" name="hobby" class="form-control" id="memberHobby" placeholder="Hobby">
+                </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>  
+</body>
+</html>
